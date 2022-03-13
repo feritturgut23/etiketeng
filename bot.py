@@ -23,10 +23,10 @@ async def start(event):
     buttons=(
       [
         Button.url('💠 Source Code', 'https://github.com/Kousei-Friend-A/Miku-MentionAll_Bot'),  
-        Button.url('👨‍💻 Dev', 'https://t.me/{OWNER_USERNAME}')
+        Button.url('👨‍💻 Dev', 'https://t.me/{owner_username}')
       ],
       [
-        Button.url('➕ Add me to your group', 't.me/{BOT_USERNAME}?startgroup=true')
+        Button.url('➕ Add me to your group', 't.me/{bot_username}?startgroup=true')
       ]    
     )
   )
@@ -39,7 +39,7 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('➕ Add me to your group', 't.me/{BOT_USERNAME}?startgroup=true')
+        Button.url('➕ Add me to your group', 't.me/{bot_username}?startgroup=true')
       ]
     )
   )
