@@ -23,7 +23,7 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "__**Hi!!, \nI'm Miku☺️❤️, A Mention All Bot.**\nI can mention almost all members in group or channel.\n\n📜 Click **/help** for more information__",
+    "__**Hi!!, \nI'm A Simple Mention All Bot.**\nI can mention almost all members in group or channel.\n\n📜 Click **/help** for more information__",
     link_preview=False,
     buttons=(
       [
@@ -38,7 +38,7 @@ async def start(event):
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**📜 Help Menu of Miku**\n\n⚜️ /mentionall : __You can use this command with text what you want to mention others.__\nExample: `/mentionall Good Morning!`\n__You can you this command as a reply to any message. Miku will tag users to that replied messsage__.\n\n⭕️__Note : Use /cancel command to stop the process.__"
+  helptext = "**📜 Help Menu..**\n\n⚜️ /mentionall : __You can use this command with text what you want to mention others.__\nExample: `/mentionall Good Morning!`\n__You can you this command as a reply to any message. Miku will tag users to that replied messsage__.\n\n⭕️__Note : Use /cancel command to stop the process.__"
   await event.reply(
     helptext,
     link_preview=False,
