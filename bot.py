@@ -1,3 +1,5 @@
+# (c) @Kousei_Assistantbot
+
 import os, logging, asyncio
 from telethon import Button
 from telethon import TelegramClient, events
@@ -5,7 +7,6 @@ from telethon.tl.types import ChannelParticipantAdmin
 from telethon.tl.types import ChannelParticipantCreator
 from telethon.tl.functions.channels import GetParticipantRequest
 from telethon.errors import UserNotParticipantError
-from Configs import Var
 
 logging.basicConfig(
     level=logging.INFO,
@@ -13,10 +14,9 @@ logging.basicConfig(
 )
 LOGGER = logging.getLogger(__name__)
 
-bot_username = Var.BOT_USERNAME
-api_id = Var.APP_ID 
-api_hash = Var.API_HASH 
-bot_token = Var.TOKEN 
+api_id = int(os.environ.get("APP_ID"))
+api_hash = os.environ.get("API_HASH")
+bot_token = os.environ.get("TOKEN")
 client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 spam_chats = []
 
@@ -27,11 +27,11 @@ async def start(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('✨ More Bots ✨', 'https://t.me/WaifuHaremBots'),  
+        Button.url('💠 Source Code', 'https://github.com/Kousei-Friend-A/Miku-MentionAll_Bot'),  
         Button.url('👨‍💻 Dev', 'https://t.me/Kousei_Assistantbot')
       ],
       [
-        Button.url('➕ Add me to your group', 't.me/{Var.BOT_USERNAME}?startgroup=true')
+        Button.url('➕ Add me to your group', 't.me/MikuMentionAll_bot?startgroup=true')
       ]    
     )
   )
@@ -44,7 +44,7 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('➕ Add me to your group', 't.me/{Var.BOT_USERNAME}?startgroup=true')
+        Button.url('➕ Add me to your group', 't.me/MikuMentionAll_bot?startgroup=true')
       ]
     )
   )
