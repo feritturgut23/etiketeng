@@ -12,3 +12,8 @@
     
 🎈3. **Now set the below Variables in the Github Repository Secrets**
     [Environmental Variables](#environment-variables)
+    
+🎈4. **After filling the Required vars .... go to Actions and then tap on Run the Workflow**
+    ![Actions](assets/step-2.png)   
+
+🎉5. **now wait it for it to deployed to heroku and Check app logs and Turn on Workers If OFF** **if everything is OK then send /start to the bot or try other cmds**...
