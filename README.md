@@ -7,8 +7,6 @@ _**This bot can mention members upto 10,000 in groups and can mention members up
 - Language: Python.
 - Telegram Library: Telethon.
 
-**⭕️ Note : Fork this repo & Modify the 31 & 34 lines of the bot.py's as you wish.. If you want help, Contact [Kousei](https://t.me/Kousei_Assistantbot)..**
-
 ## Environment Variables
 
 #### Mandatory Vars
@@ -19,9 +17,9 @@ _**This bot can mention members upto 10,000 in groups and can mention members up
 - `BOT_USERNAME` - Your bot username without @.
 - `OWNER_USERNAME` -	Your Telegram username without @.
 
+#### Functions
 
-
-> New features to look forward to adding in the future :)
+> New features to look forward to adding in the future..
 - Tag all admins in a group easily and quickly! 
 
 ### 🚀 Deploy to heroku
