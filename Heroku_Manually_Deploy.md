@@ -11,7 +11,7 @@
     ![Secrets](assets/step-01.jpg)
     
 🎈3. **Now set the below Variables in the Github Repository Secrets**
-    [Environmental Variables](#environment-variables)(assets/step-02.jpg)   
+    [Environmental Variables](#environment-variables)![Secrets](assets/step-02.jpg)   
     
 🎈4. **After filling the Required vars .... go to Actions and then tap on Run the Workflow**
     ![Actions](assets/step-03.jpg)   
