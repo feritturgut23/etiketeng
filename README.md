@@ -19,6 +19,7 @@ _**This bot can mention members upto 10,000 in groups and can mention members up
 - `BOT_USERNAME` - Your bot username without @.
 - `OWNER_USERNAME` -	Your Telegram username without @.
 
+> More features soon if suggested by you :)
 
 ### 🚀 Deploy to heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kousei-Friend-A/Miku-MentionAll_Bot)
