@@ -17,7 +17,6 @@ _**This bot can mention members upto 10,000 in groups and can mention members up
 - `BOT_USERNAME` - Your bot username without @.
 - `OWNER_USERNAME` -	Your Telegram username without @.
 
-#### Functions
 
 > New features to look forward to adding in the future..
 - Tag all admins in a group easily and quickly! 
