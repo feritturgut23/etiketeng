@@ -9,5 +9,13 @@ _**This bot can mention members upto 10,000 in groups and can mention members up
 
 **⭕️Note: Fork this repo & Modify the 30,31 & 34 lines of the bot.py's as you wish.. If you want help, Contact [Kousei](https://t.me/Kousei_Assistantbot)..**
 
+## Environment Variables
+
+#### Mandatory Vars
+
+- `APP_ID` - Get this from [my.telegram.org](https://my.telegram.org/auth)
+- `API_HASH` - Get this from [my.telegram.org](https://my.telegram.org/auth)
+- `TOKEN` - Get this from [@BotFather](https://t.me/BotFather)
+
 ### 🚀 Deploy to heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kousei-Friend-A/Miku-MentionAll_Bot)
