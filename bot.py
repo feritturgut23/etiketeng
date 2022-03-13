@@ -17,7 +17,6 @@ api_hash = os.environ.get("API_HASH")
 bot_token = os.environ.get("TOKEN")
 client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 spam_chats = []
-api_hash = os.environ.get("BOT_USERNAME")
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
@@ -30,7 +29,7 @@ async def start(event):
         Button.url('👨‍💻 Dev', 'https://t.me/Kousei_Assistantbot')
       ],
       [
-        Button.url('➕ Add me to your group', 't.me/Var.BOT_USERNAME?startgroup=true')
+        Button.url('➕ Add me to your group', 't.me/MikuMentionAll_bot?startgroup=true')
       ]    
     )
   )
