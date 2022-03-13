@@ -29,7 +29,7 @@
 | `HEROKU_API_KEY` | Get it from [Heroku](https://dashboard.heroku.com/account/applications/authorizations/new) |
 | `HEROKU_APP_NAME` | Heroku app name that needs to be Updated or Created (Should be in lowercase) |
 | `TOKEN` | Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the  API token. |
-| `APP_ID` | Get this value from my.telegram.org Please do not steal. |
-| `API_HASH` | True | Get this value from my.telegram.org Please do not steal. |
+| `APP_ID` | Get this value from [Telegram](my.telegram.org). Please do not steal. |
+| `API_HASH` | Get this value from [Telegram](my.telegram.org). Please do not steal. |
 | `BOT_USERNAME` | Your bot username without @. |
 | `OWNER_USERNAME` | Your Telegram username without @. |
