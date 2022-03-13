@@ -9,7 +9,7 @@ from telethon.tl.types import ChannelParticipantAdmin
 from telethon.tl.types import ChannelParticipantCreator
 from telethon.tl.functions.channels import GetParticipantRequest
 from telethon.errors import UserNotParticipantError
-from Config import client, BOT_USERNAAME, OWNER_USERNAAME,
+from Config import client, BOT_USERNAAME, OWNER_USERNAAME
 
 logging.basicConfig(
     level=logging.INFO,
