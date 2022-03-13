@@ -13,9 +13,10 @@ logging.basicConfig(
 )
 LOGGER = logging.getLogger(__name__)
 
-api_id =Var.APP_ID 
-api_hash =Var.API_HASH 
-bot_token =Var.TOKEN 
+bot_username = Var.BOT_USERNAME
+api_id = Var.APP_ID 
+api_hash = Var.API_HASH 
+bot_token = Var.TOKEN 
 client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 spam_chats = []
 
@@ -30,7 +31,7 @@ async def start(event):
         Button.url('👨‍💻 Dev', 'https://t.me/Kousei_Assistantbot')
       ],
       [
-        Button.url('➕ Add me to your group', 't.me/{Config.BOT_USERNAME}?startgroup=true')
+        Button.url('➕ Add me to your group', 't.me/?startgroup=true')
       ]    
     )
   )
@@ -43,7 +44,7 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('➕ Add me to your group', 't.me/BOT_USERNAME=Var.BOT_USERNAME?startgroup=true')
+        Button.url('➕ Add me to your group', 't.me/?startgroup=true')
       ]
     )
   )
