@@ -16,6 +16,9 @@ _**This bot can mention members upto 10,000 in groups and can mention members up
 - `APP_ID` - Get this from [my.telegram.org](https://my.telegram.org/auth)
 - `API_HASH` - Get this from [my.telegram.org](https://my.telegram.org/auth)
 - `TOKEN` - Get this from [@BotFather](https://t.me/BotFather)
+- `BOT_USERNAME` - Your bot username without @.
+- `OWNER_USERNAME` -	Your Telegram username without @.
+
 
 ### 🚀 Deploy to heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kousei-Friend-A/Miku-MentionAll_Bot)
