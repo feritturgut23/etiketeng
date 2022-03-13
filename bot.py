@@ -1,4 +1,4 @@
-# (c) @Kousei_Assistantbot
+# (c) @Friend_A_Kousei
 
 import os, logging, asyncio
 from telethon import Button
