@@ -19,6 +19,7 @@
             "description": "Your Telegram username without @."
             "value": "Kousei_Assistantbot"
         }
+    } 
     },
     "buildpacks": [{"url": "heroku/python"}]
 }
