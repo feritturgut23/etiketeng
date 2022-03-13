@@ -8,5 +8,5 @@ bot_token = os.environ.get("TOKEN")
 # Telethon 
 client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 
-bot_username = os.environ.get("BOT_USERNAAME")
-owner_username = os.environ.get("OWNER_USERNAAME")
+bot_username = os.environ.get("BOT_USERNAME")
+owner_username = os.environ.get("OWNER_USERNAME")
