@@ -20,7 +20,7 @@ _**This bot can mention members upto 10,000 in groups and can mention members up
 - `OWNER_USERNAME` -	Your Telegram username without @.
  
 
-> New features to look forward to adding in the future :)
+> New features to look forward to adding in the future :) <
     ---> Tag all admins in a group easily and quickly! 
 
 ### 🚀 Deploy to heroku
