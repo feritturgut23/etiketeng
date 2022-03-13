@@ -18,12 +18,12 @@ LOGGER = logging.getLogger(__name__)
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "__**Hi!!, \nI'm A Simple Mention All Bot.**\nI can mention almost all members in group or channel.\n\n📜 Click **/help** for more information__",
+    "**Hi!!, \nI'm A Simple Mention All Bot.**\nI can mention almost all members in group or channel.\n\n__📜 Click__ **/help** __for more information__",
     link_preview=False,
     buttons=(
       [
         Button.url('💠 Source Code', 'https://github.com/Kousei-Friend-A/Miku-MentionAll_Bot'),  
-        Button.url('👨‍💻 Dev', f'https://t.me/{owner_username}')
+        Button.url('👨‍💻 Owner', f'https://t.me/{owner_username}')
       ],
       [
         Button.url('➕ Add me to your group', f't.me/{bot_username}?startgroup=true')
@@ -118,5 +118,6 @@ async def cancel_spam(event):
       pass
     return await event.respond('__Stopped.__')
 
-print(">> BOT STARTED <<")
+print("(c) @Kousei_Assistantbot")
+print(">> BOT STARTED.. <<")
 client.run_until_disconnected()
