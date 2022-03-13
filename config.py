@@ -1,5 +1,4 @@
 import os
-import heroku3
 from telethon import TelegramClient, events
 
 api_id = int(os.environ.get("APP_ID"))
