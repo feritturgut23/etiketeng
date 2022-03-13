@@ -16,10 +16,8 @@
             "description": "Your bot username without @."            
         },
         "OWNER_USERNAME": {
-            "description": "Your Telegram username without @."
-            "value": "Kousei_Assistantbot"
-        }
-    } 
+            "description": "Your Telegram username without @."            
+        } 
     },
     "buildpacks": [{"url": "heroku/python"}]
 }
