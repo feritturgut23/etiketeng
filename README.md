@@ -19,3 +19,5 @@ _**This bot can mention members upto 10,000 in groups and can mention members up
 
 ### 🚀 Deploy to heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kousei-Friend-A/Miku-MentionAll_Bot)
+
+### [Manually Deploy To Heroku..](Heroku_Manually_Deploy.md)
