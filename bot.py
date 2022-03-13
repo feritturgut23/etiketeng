@@ -5,6 +5,9 @@ from telethon.tl.types import ChannelParticipantAdmin
 from telethon.tl.types import ChannelParticipantCreator
 from telethon.tl.functions.channels import GetParticipantRequest
 from telethon.errors import UserNotParticipantError
+from Config import Var
+
+BOTUSERNAME = Var.BOT_USERNAME
 
 logging.basicConfig(
     level=logging.INFO,
@@ -29,7 +32,7 @@ async def start(event):
         Button.url('👨‍💻 Dev', 'https://t.me/Kousei_Assistantbot')
       ],
       [
-        Button.url('➕ Add me to your group', 't.me/MikuMentionAll_bot?startgroup=true')
+        Button.url('➕ Add me to your group', 't.me/Var.BOT_USERNAME?startgroup=true')
       ]    
     )
   )
