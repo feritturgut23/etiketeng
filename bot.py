@@ -31,7 +31,7 @@ async def start(event):
         Button.url('👨‍💻 Dev', 'https://t.me/Kousei_Assistantbot')
       ],
       [
-        Button.url('➕ Add me to your group', 't.me/?startgroup=true')
+        Button.url('➕ Add me to your group', 't.me/{Var.BOT_USERNAME}?startgroup=true')
       ]    
     )
   )
