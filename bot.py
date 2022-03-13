@@ -1,7 +1,5 @@
 # (c) @Kousei_Assistantbot
 
-import heroku3
-import random
 import os, logging, asyncio
 from telethon import Button
 from telethon import TelegramClient, events
@@ -9,7 +7,7 @@ from telethon.tl.types import ChannelParticipantAdmin
 from telethon.tl.types import ChannelParticipantCreator
 from telethon.tl.functions.channels import GetParticipantRequest
 from telethon.errors import UserNotParticipantError
-from Config import client, BOT_USERNAAME, OWNER_USERNAAME
+from config import client, BOT_USERNAAME, OWNER_USERNAAME
 
 logging.basicConfig(
     level=logging.INFO,
