@@ -7,7 +7,7 @@ from telethon.tl.types import ChannelParticipantAdmin
 from telethon.tl.types import ChannelParticipantCreator
 from telethon.tl.functions.channels import GetParticipantRequest
 from telethon.errors import UserNotParticipantError
-from config import client, BOT_USERNAAME, OWNER_USERNAAME
+from config import client, bot_username, owner_username
 
 logging.basicConfig(
     level=logging.INFO,
@@ -23,10 +23,10 @@ async def start(event):
     buttons=(
       [
         Button.url('💠 Source Code', 'https://github.com/Kousei-Friend-A/Miku-MentionAll_Bot'),  
-        Button.url('👨‍💻 Dev', 'https://t.me/{OWNER_USERNAAME}')
+        Button.url('👨‍💻 Dev', 'https://t.me/{OWNER_USERNAME}')
       ],
       [
-        Button.url('➕ Add me to your group', 't.me/{BOT_USERNAAME}?startgroup=true')
+        Button.url('➕ Add me to your group', 't.me/{BOT_USERNAME}?startgroup=true')
       ]    
     )
   )
@@ -39,7 +39,7 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('➕ Add me to your group', 't.me/{BOT_USERNAAME}?startgroup=true')
+        Button.url('➕ Add me to your group', 't.me/{BOT_USERNAME}?startgroup=true')
       ]
     )
   )
