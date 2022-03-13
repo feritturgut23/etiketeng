@@ -4,7 +4,7 @@
     "logo": "https://telegra.ph//file/66fff3b396e778d872a29.jpg",
     "env": {
         "TOKEN": {
-            "description": "Enter bot token."
+            "description": "Create a bot using @BotFather, and get the API token."
         },
         "APP_ID": {
             "description": "Get this value from my.telegram.org! Please do not steal."
