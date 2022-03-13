@@ -7,18 +7,13 @@ from telethon.tl.types import ChannelParticipantAdmin
 from telethon.tl.types import ChannelParticipantCreator
 from telethon.tl.functions.channels import GetParticipantRequest
 from telethon.errors import UserNotParticipantError
+from config import client, BOT_USERNAAME, OWNER_USERNAAME,
 
 logging.basicConfig(
     level=logging.INFO,
     format='%(name)s - [%(levelname)s] - %(message)s'
 )
 LOGGER = logging.getLogger(__name__)
-
-api_id = int(os.environ.get("APP_ID"))
-api_hash = os.environ.get("API_HASH")
-bot_token = os.environ.get("TOKEN")
-client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
-spam_chats = []
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
@@ -28,10 +23,10 @@ async def start(event):
     buttons=(
       [
         Button.url('💠 Source Code', 'https://github.com/Kousei-Friend-A/Miku-MentionAll_Bot'),  
-        Button.url('👨‍💻 Dev', 'https://t.me/Kousei_Assistantbot')
+        Button.url('👨‍💻 Dev', 'https://t.me/{OWNER_USERNAAME}')
       ],
       [
-        Button.url('➕ Add me to your group', 't.me/MikuMentionAll_bot?startgroup=true')
+        Button.url('➕ Add me to your group', 't.me/{BOT_USERNAAME}?startgroup=true')
       ]    
     )
   )
@@ -44,7 +39,7 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('➕ Add me to your group', 't.me/MikuMentionAll_bot?startgroup=true')
+        Button.url('➕ Add me to your group', 't.me/{BOT_USERNAAME}?startgroup=true')
       ]
     )
   )
