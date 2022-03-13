@@ -18,8 +18,10 @@ _**This bot can mention members upto 10,000 in groups and can mention members up
 - `TOKEN` - Get this from [@BotFather](https://t.me/BotFather)
 - `BOT_USERNAME` - Your bot username without @.
 - `OWNER_USERNAME` -	Your Telegram username without @.
+ 
 
-> More features soon if suggested by you :)
+> New features to look forward to adding in the future :)
+    ---> Tag all admins in a group easily and quickly! 
 
 ### 🚀 Deploy to heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kousei-Friend-A/Miku-MentionAll_Bot)
