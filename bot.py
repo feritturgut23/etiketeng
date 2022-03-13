@@ -7,8 +7,6 @@ from telethon.tl.functions.channels import GetParticipantRequest
 from telethon.errors import UserNotParticipantError
 from Config import Var
 
-BOT_USERNAME = Var.BOT_USERNAME
-
 logging.basicConfig(
     level=logging.INFO,
     format='%(name)s - [%(levelname)s] - %(message)s'
@@ -45,7 +43,7 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('➕ Add me to your group', 't.me/MikuMentionAll_bot?startgroup=true')
+        Button.url('➕ Add me to your group', 't.me/BOT_USERNAME=Var.BOT_USERNAME?startgroup=true')
       ]
     )
   )
