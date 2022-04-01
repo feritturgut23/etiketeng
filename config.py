@@ -1,5 +1,4 @@
 # (c) @Friend_A_Kousei
-
 import os
 from telethon import TelegramClient, events
 
