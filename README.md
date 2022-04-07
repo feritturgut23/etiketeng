@@ -1,9 +1,10 @@
 # [Miku-Mention All Bot](https://t.me/MikuMentionAll_bot)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 _**This bot can mention members upto 10,000 in groups and can mention members upto 200 in channels !**_
 
 <img src="https://telegra.ph//file/66fff3b396e778d872a29.jpg" align="center" width="500" height="500">
 
-### 🏷 Infomation[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+### 🏷 Infomation
 - Language: Python.
 - Telegram Library: Telethon.
 
