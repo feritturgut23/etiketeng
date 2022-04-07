@@ -3,7 +3,7 @@ _**This bot can mention members upto 10,000 in groups and can mention members up
 
 <img src="https://telegra.ph//file/66fff3b396e778d872a29.jpg" align="center" width="500" height="500">
 
-### 🏷 Infomation
+### 🏷 Infomation[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 - Language: Python.
 - Telegram Library: Telethon.
 
