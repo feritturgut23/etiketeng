@@ -22,7 +22,7 @@ async def start(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('💠 Source Code', 'https://github.com/Kousei-Friend-A/Miku-MentionAll_Bot'),  
+          
         Button.url('👨‍💻 Owner', f'https://t.me/{owner_username}')
       ],
       [
